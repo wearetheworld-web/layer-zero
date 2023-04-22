@@ -516,7 +516,7 @@
     },
     3511: function (e, t, r) {
       ;(window.__NEXT_P = window.__NEXT_P || []).push([
-        '/developers',
+        '/',
         function () {
           return r(4810)
         }
