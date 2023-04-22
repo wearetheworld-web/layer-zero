@@ -422,7 +422,7 @@
                                 css: Q,
                                 children: e.links.map(function (e, t) {
                                   return (0,
-                                  v.tZ)('li', { children: (0, v.BX)('a', { css: W, href: e.href, target: '_blank', rel: 'noopener nofollow noreffer', children: [(0, v.tZ)('svg', { css: Y, fill: 'none', xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 17 10', children: (0, v.tZ)('path', { d: 'M16.4714 5.4714c.2604-.26035.2604-.68245 0-.9428L12.2288.285954c-.2604-.2603488-.6825-.2603488-.9428 0-.2604.26035-.2604.68246 0 .942806L15.0572 5 11.286 8.77124c-.2604.26035-.2604.68246 0 .94281.2603.26034.6824.26034.9428 0l4.2426-4.24265ZM0 5.66667h16V4.33333H0v1.33334Z', fill: '#fff' }) }), (0, v.tZ)('span', { css: J, children: e.label })] }) }, t)
+                                  v.tZ)('li', { children: (0, v.BX)('a', { css: W, href: e.href, target: '#', rel: 'noopener nofollow noreffer', children: [(0, v.tZ)('svg', { css: Y, fill: 'none', xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 17 10', children: (0, v.tZ)('path', { d: 'M16.4714 5.4714c.2604-.26035.2604-.68245 0-.9428L12.2288.285954c-.2604-.2603488-.6825-.2603488-.9428 0-.2604.26035-.2604.68246 0 .942806L15.0572 5 11.286 8.77124c-.2604.26035-.2604.68246 0 .94281.2603.26034.6824.26034.9428 0l4.2426-4.24265ZM0 5.66667h16V4.33333H0v1.33334Z', fill: '#fff' }) }), (0, v.tZ)('span', { css: J, children: e.label })] }) }, t)
                                 })
                               })
                             ]
@@ -439,10 +439,10 @@
                       (0, v.BX)('div', {
                         css: U,
                         children: [
-                          (0, v.tZ)(m.Z, { label: 'Explore Gitbook', href: l.R, target: '_blank' }),
+                          (0, v.tZ)(m.Z, { label: 'Explore Gitbook', href: l.R, target: '#' }),
                           (0, v.tZ)('div', {
                             css: $,
-                            children: (0, v.tZ)(C, { label: 'LayerZero Scan', href: 'https://layerzeroscan.com/', target: '_blank' })
+                            children: (0, v.tZ)(C, { label: 'LayerZero Scan', href: '#', target: '#' })
                           })
                         ]
                       })
@@ -516,7 +516,7 @@
     },
     3511: function (e, t, r) {
       ;(window.__NEXT_P = window.__NEXT_P || []).push([
-        '/',
+        '/developers',
         function () {
           return r(4810)
         }
